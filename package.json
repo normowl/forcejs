@@ -8,10 +8,7 @@
     "apis"
   ],
   "scripts": {
-    "clean": "rimraf dist/*",
-    "webpack": "webpack",
-    "build": "npm run clean && npm run webpack",
-    "prepublish": "webpack --config webpack.config.npm.js"
+
   },
   "repository": {
     "type": "git",
